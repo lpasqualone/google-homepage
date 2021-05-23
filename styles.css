@@ -4,7 +4,47 @@ body{
     height: 100vh;
 }
 
-#main{
+header{
+    font-size: 14px;
+    color: rgb(41, 41, 41);
+    max-height: 20px;
+}
+
+nav.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left{
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.store{
+    padding-left: 20px;
+}
+
+#right{
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.images{
+    padding-left: 20px;
+}
+
+
+#mainSearch{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +65,17 @@ body{
     margin: auto;
     border-radius: 20px;
     border: 1px solid #dee1e5;
+}
+
+@media screen and (max-width: 550px) {
+    .searchbar{
+        width: 450px;
+    }
+}
+
+.searchbar:hover{
+    border: 1px solid #dee1e5;
+    box-shadow: 3px 6px 7px -3px #dee1e5;
 }
 
 #search-button{
