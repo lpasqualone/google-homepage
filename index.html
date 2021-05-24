@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <title>Google</title>
         <link rel="stylesheet" href="styles.css">
     </head>
@@ -14,7 +16,7 @@
             <nav class="flexbox">
                 <div id="left">
                 <a href="https://about.google/">About</a>
-                <a class="store" href="https://store.google.com/?hl=en-US">Store</a>
+                <a class="headerSpacing" href="https://store.google.com/?hl=en-US">Store</a>
                </div>
                <div id="right">
                 <a href="https://mail.google.com/mail/">Gmail</a>
@@ -28,6 +30,9 @@
         <img class="logo" src="images/google.png" alt="google logo">
         <form action="/action_page.php" method="get" target="_blank">
         <div id="searchContainer">
+            <span class="material-icons">
+                search
+                </span>
             <input class="searchbar" type="search" name="search">
         </div>    
     </div>
@@ -37,6 +42,24 @@
         </div>
     </form>
     </section>
+
+    <footer class="flexbox">
+        <div id="leftFooter">
+        <a href="https://ads.google.com/home/?pli=1#!/">Advertising</a>
+        <a class="headerSpacing" href="https://smallbusiness.withgoogle.com/#!/">Business</a>
+        <a class="headerSpacing" href="https://www.google.com/search/howsearchworks/">How Search works</a>
+       </div>
+       <div>
+        <a id="centerFooter" href="http://sustainability.google/commitments/">
+            <img src="images/leaf.png" width="15" height="15">
+            <span>Carbon Neutral since 2007</span></a>
+        </div>
+            <div id="rightFooter">
+            <a href="https://policies.google.com/privacy">Privacy</a>
+            <a class="headerSpacing" href="https://policies.google.com/terms">Terms</a>
+            <a class="headerSpacing" href=""">Settings</a>
+        </div>
+    </footer>
     </body>
 
 </html>

@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 20px 20px;
+    margin: 0;
     height: 100vh;
 }
 
@@ -13,14 +13,15 @@ header{
 nav.flexbox{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 #left{
     display: inline-block;
-    padding: 15px 10px;
+    padding: 10px 30px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: rgb(41, 41, 41);
     cursor: pointer;
@@ -30,13 +31,14 @@ a:hover{
     text-decoration: underline;
 }
 
-.store{
+.headerSpacing{
     padding-left: 20px;
 }
 
 #right{
     display: inline-block;
-    padding: 15px 10px;
+    padding: 10px 10px;
+    font-size: 13px;
 }
 
 .images{
@@ -56,6 +58,18 @@ a:hover{
     height: 92px;
     width: 272px;
     padding-bottom: 2vh;
+}
+
+#searchContainer{
+    position: relative;
+}
+
+.material-icons{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #babec2;
+    font-size: 20px;
 }
 
 .searchbar{
@@ -103,3 +117,44 @@ button:hover{
 button:active{
     border: 1px solid #4284f2;
 }
+
+footer{
+    font-size: 14px;
+    background-color: #f2f2f2;
+    height: 48px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #71767a;
+}
+
+footer.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+}
+
+#leftFooter{
+    display: inline-block;
+    padding: 10px 0 10px 30px;
+    cursor: pointer;
+}
+
+#centerFooter{
+    display: inline-block;
+    padding: 10px;
+}
+
+#rightFooter{
+    display: inline-block;
+    padding: 10px 20px 10px 100px;
+}
+
