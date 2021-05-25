@@ -31,14 +31,48 @@ a:hover{
     text-decoration: underline;
 }
 
+
+
 .headerSpacing{
     padding-left: 20px;
 }
 
 #right{
     display: inline-block;
-    padding: 10px 10px;
+    padding: 10px 120px 10px 50px;
     font-size: 13px;
+}
+
+#widgets{
+    display: inline-block;
+    color:#6e7175;
+    padding: 10px 10px;
+    position: relative;
+    top: -27px;
+    left: 110px;
+
+}
+
+#widgets:hover{
+    background-color: #ebecec;
+    border-radius: 50%;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.profileImg{
+    display: inline-block;
+    position: relative;
+    padding: 3px 3px;
+    position: relative;
+    top: -65px;
+    left: 155px;
+}
+
+.profileImg:hover{
+    background-color: #ebecec;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .images{
